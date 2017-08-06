@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+
+
+# Local files
+WebFrameworkPrj
+bin/*
+.vscode
