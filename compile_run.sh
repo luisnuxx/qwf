@@ -1,6 +1,11 @@
 clear
+CLANG_PATH="$HOME/Development/tools/clang_3_9_0/bin/clang++"
+OUTPUT_FILE="bin/main"
 
-~/Development/tools/clang_3_9_0/bin/clang++  -std=c++14 \
+[ -d bin ] || mkdir bin
+[ -d logs ] || mkdir logs
+
+${CLANG_PATH}  -std=c++14 \
 -O3 -lboost_system -lboost_thread-mt -stdlib=libc++  \
 -I./include/ \
 -I./include/app/ \
@@ -10,11 +15,11 @@ clear
 -L./include/app/ \
 -L./include/ \
 main.cpp \
--o main
+-o ${OUTPUT_FILE}
 
 if [ $? -eq 0 ]
 then
-    echo "Compiled successfuly"
+    echo "Compiled successfuly. Run:: ${OUTPUT_FILE}"
     #./main
 else
   echo "Found error compiling"
