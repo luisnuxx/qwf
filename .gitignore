@@ -37,3 +37,4 @@
 WebFrameworkPrj
 bin/*
 .vscode
+logs/*

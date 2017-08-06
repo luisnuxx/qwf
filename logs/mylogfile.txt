@@ -1,6 +1,0 @@
-*** [01:29:40 +01:00] [thread 1631936] Debug from logger::  ***
-*** [01:31:23 +01:00] [thread 1633790] Debug from logger::  ***
-*** [01:32:08 +01:00] [thread 1634885] Debug from logger::  ***
-*** [01:33:10 +01:00] [thread 1636146] Error from logger::  ***
-*** [01:46:41 +01:00] [thread 1647185] Error from logger::  ***
-*** [01:47:36 +01:00] [thread 1648747] Error from logger::  ***
